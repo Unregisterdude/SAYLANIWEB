@@ -1,8 +1,11 @@
+html,body{
+    overflow-x: hidden;
+}
 
 div.c{
 
 background-color: rgb(93, 93, 235);
-height: 150px;
+height: 80px;
 
 }
 
@@ -30,9 +33,9 @@ img.logo{
     margin-right: 150px;
 }
 
-a.nav-link{
+/* a.nav-link{
     margin-top: 05px;
-}
+} */
 
 
 div.marquee{
@@ -46,12 +49,12 @@ img.picture{
     width: 30px;
     height: 30px;
 }
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
     /* PUT CSS HERE TO ALTER WEBSITE TO SINGLE COLUMN */
     .but>div{
         display: none;
     }
- }
+ } */
 
 /* ul {
     list-style-type: none;
